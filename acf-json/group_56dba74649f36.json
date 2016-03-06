@@ -46,6 +46,86 @@
                 }
             ],
             "collapsed": ""
+        },
+        {
+            "key": "field_56dc4977a4536",
+            "label": "Selected Categories",
+            "name": "selected_categories",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Adicionar Linha",
+            "sub_fields": [
+                {
+                    "key": "field_56dc49a1a4537",
+                    "label": "category",
+                    "name": "category",
+                    "type": "taxonomy",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "taxonomy": "category",
+                    "field_type": "select",
+                    "allow_null": 0,
+                    "add_term": 0,
+                    "save_terms": 0,
+                    "load_terms": 0,
+                    "return_format": "id",
+                    "multiple": 0
+                },
+                {
+                    "key": "field_56dc4aef0cb16",
+                    "label": "date format",
+                    "name": "date_format",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_56dc52df27efa",
+                    "label": "cover",
+                    "name": "cover",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0
+                }
+            ]
         }
     ],
     "location": [
@@ -65,5 +145,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1457235960
+    "modified": 1457279743
 }
