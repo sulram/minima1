@@ -4,7 +4,7 @@
         <div class="container">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="link-image"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <br/>Este site está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons</a>.
-            <br/><a href="//github.com/sulram/minimal">Minimal</a>, wordpress theme by <a href="//marlus.com">Marlus Araujo</a>.
+            <a href="//github.com/sulram/minimal">Minimal</a>, wordpress theme by <a href="//marlus.com">Marlus Araujo</a>.
         </div>
     </footer>
 

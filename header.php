@@ -45,16 +45,9 @@
     <header class="container">
         <h1 class="site-title"><a href="<?php echo site_url(); ?>"><?php bloginfo('title'); ?></a></h1>
         <nav class="site-menu">
-            <ul class="site-menu-list">
-                <?php
-                    /*
-                    wp_list_categories(array(
-                        'title_li' => ''
-                    ));
-                    */
-                    wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-                ?>
-            </ul>
+            <?php
+                wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+            ?>
         </nav>
     </header>
 
