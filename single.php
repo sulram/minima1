@@ -15,7 +15,7 @@
                         <br/>
                         <h3 class="color-light">
                             <?php if ($page): ?>
-                                <a class="color-light" href="<?php echo $page; ?>"><?php echo $cat->name; ?></a>
+                                <a class="color-light" href="<?php echo $page; ?>" rel="redirect_page"><?php echo $cat->name; ?></a>
                             <?php else: ?>
                                 <?php echo $cat->name; ?>
                             <?php endif; ?>    
