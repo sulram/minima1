@@ -1,0 +1,124 @@
+
+@color-link: #E84A52;
+
+/*
+@font-face {
+    font-family: Menlo;
+    src: url(../fonts/Menlo-Regular.ttf);
+}
+
+.font-menlo {
+    font-family: "Menlo";
+}
+*/
+
+body {
+    font-family: Courier, "Courier New";
+    font-size: 14px;
+    color: #111;
+    line-height: 22px;
+}
+
+.container {
+    width: 90vw;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    color: #111;
+    padding-bottom: 2px;
+}
+
+a:hover {
+    color: #111;
+    border-bottom: 1px solid #111;
+}
+
+.link-image {
+    border-bottom: none;
+}
+
+header {
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+footer {
+    padding: 50px 0;
+    border-top: 2px solid #efefef;
+    color: #999;
+    font-size: 10px;
+    a {
+        color: #999;
+    }
+}
+
+.site-title {
+    float: left;
+    margin: 0;
+    body.home & {
+        font-weight: bold;
+    }
+}
+
+.site-menu {
+    float: left;
+    margin-left: 50px;
+}
+
+.site-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .current-menu-item {
+        font-weight: bold;
+    }
+}
+
+.content {
+    padding-bottom: 50px;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.profile {
+    overflow: hidden;
+    .profile-img {
+        float: left;
+        width: 116px;
+        img {
+            width: 96px;
+            height: auto;
+        }
+    }
+    .profile-text {
+        float: left;
+    }
+}
+
+
+img {
+    &.size-square-medium {
+        width: 128px;
+        height: auto;
+    }
+}
+
+.seo {
+    display: none;
+}
