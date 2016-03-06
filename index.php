@@ -11,7 +11,7 @@
                 <a href="<?php the_permalink(); ?>">
 
                     <?php if(has_post_thumbnail()): ?>
-                        <?php the_post_thumbnail(); ?>
+                        <?php the_post_thumbnail('2x'); ?>
                     <?php endif; ?>
 
                     <span class="post-category">
