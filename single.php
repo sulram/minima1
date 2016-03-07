@@ -1,17 +1,19 @@
-<?php while(have_posts()): ?>
-    <?php
-        the_post();
-        $cat = get_the_category()[0];
-        $page = get_field('redirect_page', $cat);
-    ?>
+<?php while(have_posts()): the_post(); ?>
     <div class="post">
         <article>
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <div class="post-content">
-                        <h1 class="post-title"><a href="<?php the_permalink(); ?>"><strong><?php the_title(); ?></strong></a></h1>
-                        
-                        <?php the_content(); ?>
+                        <h1 class="post-title">
+                            <a href="<?php the_permalink(); ?>">
+                                <strong><?php the_title(); ?></strong>
+                            </a>
+                        </h1>
+                        <?php
+                            the_content();
+                            $cat = get_the_category()[0];
+                            $page = get_field('redirect_page', $cat);
+                        ?>
                         <br/>
                         <h3 class="color-light">
                             <?php if ($page): ?>
