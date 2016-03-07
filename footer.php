@@ -2,7 +2,7 @@
 
     <footer>
         <div class="container">
-            Powered by <a href="//wordpress.org">Wordpress</a>. <a href="//github.com/sulram/minima1">Minima1</a> theme by <a href="//marlus.com">Marlus Araujo</a>.
+            Powered by <a href="//wordpress.org">Wordpress</a> and <a href="//github.com/sulram/minima1">Minima1</a> theme by <a href="//marlus.com">Marlus</a>.
             <br/>Este site está licenciado com <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons</a>.
             <br/><br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="link-image"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
         </div>
